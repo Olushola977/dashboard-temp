@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: ../proxima light/proxima light/Proxima Nova Alt Condensed Light.otf;
+}
+
+.bg-dark-blue {
+	background: #173768;
+}
+
+.icon {
+	position: absolute;
+}
+
+.overview-icon {
+	content: url('img/overview.svg') !important;
+	font-weight: 900;
+}
+
+.nav-link img {
+	height: 15px;
+}
+
+.card {
+	border: none;
+}
+
+.card-header {
+	background-color: #fff;
+	border-bottom: 2px solid #EFEFEF;
+}
+
+.card-text p {
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.card-text span {
+	font-size: 16px;
+}
+
+hr {
+	margin: 0;
+}
+
+.txt-16 span {
+	font-size: 16px;
+}
+
+.text-black span {
+	color: #000;
+}
+
+.red img {
+	background: #FFDADA;
+	border-radius: 60%;
+	padding: 5px;
+}
+
+.collapsible {
+	background-color: #fff;
+	color: #474747;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.topbar .nav-item .nav-link .img-profile {
+	height: 3rem;
+	width: 5rem;
+}
+
+.nav-item span img {
+	height: 10px;
+}
+
+.active, .collapsible:hover {
+	background-color: #F8F8F8;
+}
+
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #F8F8F8;
+	border-radius: 0px 0px 0px 5px;
+
+}
+
+.card-body button {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.txt-20 {
+	font-size: 20px;
+}
+
+.txt-30 {
+	font-size: 30px;
+}
+
+.size-20 p img {
+	height: 20px;
+}
+
+.size-20 p {
+	font-size: 16px;
+}
+
+.size-30 p img {
+	height: 30px;
+}
+
+.txt-16 .txt-12 {
+	font-size: 12px;
+}
+
+.size-30 p {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.bg-blue {
+	background: #294C82;
+}
+
+.txt-16 {
+	font-size: 16px;
+}
+
+.status {
+	border-radius: 15rem;
+	width: 130px;
+	text-align: center;
+}
+
+.pending-status {
+	background-color: #FFDADA;
+	color: #EE1414;
+	font-size: 12px;
+}
+
+.resolved-status {
+	background-color: #DEF7EB;
+	color: #258066;
+}
+
+.in-progress-status {
+	background-color: #F9E4CB;
+	color: #F0A243;
+}
+
+.status-txt {
+	font-size: 16px;
+    line-height: 35px;
+}
+
+@media (min-width: 768px) {
+	.sidebar .nav-item .nav-link span {
+    font-size: 16px;
+    display: inline;
+	}
+}
